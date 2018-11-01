@@ -24,7 +24,7 @@ def open_browser():
         no_of_pagedowns-=1
 
     # Get product names
-    products_names = firefox.find_elements_by_class_name("product-item tagClick tagClick")
+    products_names = firefox.find_elements_by_class_name("div", "productName")
     
     print(products_names)
         
